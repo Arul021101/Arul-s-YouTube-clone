@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Youtube clone
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="vedios.css">
+    <link rel="stylesheet" href="sidebar.css">
+  </head>
+  <body>
+
+    <header  class="header">
+      <div class="left-section">
+        <img class="hamburger-icon" src="hamburger-menu.svg">
+        <img class="youtube-logo" src="youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="upload.svg"> 
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-app-container">
+          <img class="youtube-app-icon" src="youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notification-icon-container">
+          <img class="notification-icon" src="notifications.svg">
+          <div class="notification-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="unnamed.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="subscriptions.svg">
+        <div>subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="originals.svg">
+        <div>originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+    
+    <main>
+      <section class="vedio-grid">
+        <div class="vedio1">
+          <div class="thumbnail-row">
+             <a href="https://www.youtube.com/watch?v=0NO6meqFWBE" target="_self"> 
+              <img class="thumbnail" src="new thumbnail 1.webp" alt="404ERROR">
+              <div class="vedio-time">4:16</div>
+            </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/@SonyMusicSouth">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 1.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 1.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">Sony Music South</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">15.3M subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=0NO6meqFWBE" target="_blank">
+                <p class="vedio-name">
+                  King of Kotha(Tamil)-Kalaattaakaaran Lyric video|Dulqu...
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/@SonyMusicSouth">
+                <p class="vedio-author">
+                  Sony Music South
+                </p>
+              </a>
+              <p class="vedio-views">
+                1.5M views &middot; 11 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="vedio1">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=aJQcn34K_S8" target="_blank">
+            <img class="thumbnail" src="new thumbnail 2.webp">
+            <div class="vedio-time">3:24</div>
+          </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/user/TseriesTelugu" target="_blank">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 2.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 2.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">T-Series Telugu</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">8.38M subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=aJQcn34K_S8">
+                <p class="vedio-name">
+                  Sammohanuda Lyrical|Rules Ranjann|Kiran Abbavaram,Neha..
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/user/TseriesTelugu">
+                <p class="vedio-author">
+                  T-Series Telugu
+                </p>
+              </a>
+              <p class="vedio-views">
+                13M views &middot; 2 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="vedio1">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=1F3hm6MfR1k">
+              <img class="thumbnail" src="new thumbnail 3.webp">
+            <div class="vedio-time">3:27</div>
+            </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/@suntv">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 3.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 3.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">Sun TV</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">23.3M subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=1F3hm6MfR1k">
+                <p class="vedio-name">
+                  JAILER-Hukum Lyric Vedio|Superstar Rajinikanth|Sun Picture..
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/@suntv">
+                <p class="vedio-author">
+                  Sun TV
+                </p>
+              </a>
+              <p class="vedio-views">
+                23M views &middot; 3 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="vedio1">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=zzFoyI-6zQ4" target="_blank">
+              <img class="thumbnail" src="new thumbnail 4.webp">
+            <div class="vedio-time">3:34</div>
+            </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/@TseriesTamil">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 4.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 4.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">T-Series Tamil</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">3.37M subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=zzFoyI-6zQ4">
+                <p class="vedio-name">
+                  Jawan: Vandha Edam Song|Shah Rukh Khan|Aniruth...
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/@TseriesTamil">
+                <p class="vedio-author">
+                  T-Series Tamil
+                </p>
+              </a>
+              <p class="vedio-views">
+                13M views &middot; 9 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vedio1">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=6LD30ChPsSs" target="_blank">
+              <img class="thumbnail" src="new thumbnail 5.webp">
+            <div class="vedio-time">6:12</div>
+            </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/@thinkmusicofficial">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 5.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 5.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">Think Music India</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">14M subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=6LD30ChPsSs">
+                <p class="vedio-name">
+                  96 Songs|The Life of Ram Vedio Song|Vijay Sethupathi, Trisha|...
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/@thinkmusicofficial">
+                <p class="vedio-author">
+                  Think Music India
+                </p>
+              </a>
+              <p class="vedio-views">
+                132M views &middot; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vedio1">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=MrzkoLKpgLU" target="_blank">
+              <img class="thumbnail" src="new thumbnail 6.webp">
+            <div class="vedio-time">4:01</div>
+            </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/@thinkmusicofficial">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 5.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 5.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">Think Music India</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">14M subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=MrzkoLKpgLU">
+                <p class="vedio-name">
+                Mallipoo Video Song|VTK|HDR|Silambarasan TR|Gautham Vasud..
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/@thinkmusicofficial">
+                <p class="vedio-author">
+                  Think Music India
+                </p>
+              </a>
+              <p class="vedio-views">
+                129M views &middot; 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vedio1">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=TN_vWXLu9YQ" target="_blank">
+              <img class="thumbnail" src="new thumbnail 7.webp">
+            <div class="vedio-time">19:45</div>
+            </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/@LearningScreen">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 7.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 7.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">Learning Screen</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">442k subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=TN_vWXLu9YQ">
+                <p class="vedio-name">
+                  Giant Buffalo-Photoshop Manipulation Speed Art Tutorial
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/@LearningScreen">
+                <p class="vedio-author">
+                  Learning Screen
+                </p>
+              </a>
+              <p class="vedio-views">
+                2.7M views &middot; 1 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vedio1">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=YSm8QESe7QU" target="_blank">
+              <img class="thumbnail" src="new thumbnail 8.webp">
+            <div class="vedio-time">3:43</div>
+            </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/@SaregamaTamil">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 8.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 8.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">Saregama Tamil</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">6.31 subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=YSm8QESe7QU">
+                <p class="vedio-name">
+                Vannarapettayila-Lyrical Vedio|Maaveeran|Sivakarthikeyan,Aditi..
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/@SaregamaTamil">
+                <p class="vedio-author">
+                  Saregama Tamil
+                </p>
+              </a>
+              <p class="vedio-views">
+                16M views &middot; 1 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vedio1">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=uBvctIfcNQU" target="_blank">
+              <img class="thumbnail" src="new thumbnail 9.webp">
+            <div class="vedio-time">21:40</div>
+            </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/@TheRelaxingEnd">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 9.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 9.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">TheRelaxingEnd</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">9.16M subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=uBvctIfcNQU">
+                <p class="vedio-name">
+                  The Ultimate MINECRAFT Consoles Unboxing(Xbox one, Nintendo...
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/@TheRelaxingEnd">
+                <p class="vedio-author">
+                  TheRelaxingEnd
+                </p>
+              </a>
+              <p class="vedio-views">
+                30M views &middot; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vedio1">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=q6zhos-TcNA&t=1133s" target="_blank">
+              <img class="thumbnail" src="new thumbnail 10.webp">
+            <div class="vedio-time">1:05:23</div>
+            </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/@A2DChannel">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 10.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 10.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">A2D Channel</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">736k subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=q6zhos-TcNA&t=1133s">
+                <p class="vedio-name">
+                  URUTTU TECH(2023)-Full Movie(Tamil) Full HD 60fps|Uruttu Anna...
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/@A2DChannel">
+                <p class="vedio-author">
+                  A2D Channel
+                </p>
+              </a>
+              <p class="vedio-views">
+                2.1M views &middot; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vedio1">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=xUjOVpwiZ7w" target="_blank">
+              <img class="thumbnail" src="new thumbnail 11.webp">
+            <div class="vedio-time">5:08</div>
+            </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/@SonyMusicSouthVEVO">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 11.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 11.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">SonyMusicSouthVEVO</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">18.2M subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=xUjOVpwiZ7w">
+                <p class="vedio-name">
+                  Aayirathil Oruvan-Oh Eesa Video|Karthi|G.V.Prakash
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/@SonyMusicSouthVEVO">
+                <p class="vedio-author">
+                  SonyMusicSouthVEVO
+                </p>
+              </a>
+              <p class="vedio-views">
+                4.5M views &middot; 8 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vedio1">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=0korQqBgJ_o" target="_blank">
+              <img class="thumbnail" src="new thumbnail 12.webp">
+            <div class="vedio-time">2:44:53</div>
+            </a>
+          </div>
+          <div class="vedio-bottom">
+            <div class="profile-picture">
+              <a href="https://www.youtube.com/@DesignCodeTeam">
+                <div class="picture">
+                  <img class="profile1" src="new profile picture 12.jpg">
+                  <div class="profile-details-box">
+                    <div>
+                      <img class="profile-details-image" src="new profile picture 12.jpg">
+                    </div>
+                    <div class="profile-details-name">
+                      <div style="
+                        font-weight: bold;
+                        color: black;
+                        font-size: 18px;
+                        ">DesignCode</div>
+                      <div style="
+                      font-size: 14px;
+                      color: rgb(93, 93, 93);
+                      ">248k subscribers</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="vedio-info">
+              <a class="vedio-title-link" href="https://www.youtube.com/watch?v=0korQqBgJ_o">
+                <p class="vedio-name">
+                Build a 3D Site Without code with Framer-Crash Course
+                </p>
+              </a>
+              <a class="vedio-title-link" href="https://www.youtube.com/@DesignCodeTeam">
+                <p class="vedio-author">
+                  DesignCode
+                </p>
+              </a>
+              <p class="vedio-views">
+                113k views &middot; 11 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
